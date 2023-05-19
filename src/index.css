@@ -7,7 +7,7 @@
 header {
     transition: 500ms;
     width: 10%;
-    height: 50vw;
+    height: 75vw;
     position: absolute;
 }
 header:hover {
@@ -42,12 +42,12 @@ header > section {
 
 #main {
     width: auto;
-    height: 50vw;
+    height: 75vw;
 }
 
 #rightContainer {
     width: 85%;
-    height: 50vw;
+    height: 75vw;
 }
 
 #topIcon {
@@ -60,4 +60,10 @@ header > section {
     color: black;
     border-right: 2px solid rgb(79, 78, 78);
     padding-right: 10px;
+}
+
+
+#today {
+    width: 300px;
+    height: 700px;
 }
