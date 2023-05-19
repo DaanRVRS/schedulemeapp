@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+header {
+    transition: 500ms;
+    width: 10%;
+    height: 50vw;
+    position: absolute;
+}
+header:hover {
+    transition: width 500ms ease-in-out;
+    width: 15%;
+}
+
+header > section section > p {
+    display: none;
+    transition: display 500ms;
+}
+
+header:hover > section {
+    transition: margin 500ms ease-in-out;
+    margin-right: 100px;
+}
+
+header:hover section section > div {
+    display: block;
+    transition: display 500ms;
+}
+
+header:hover section section > p {
+    display: block;
+    transition: display 500ms;
+}
+
+header > section {
+    transition: 500ms;
+}
+
+
+#main {
+    width: auto;
+    height: 50vw;
+}
+
+#rightContainer {
+    width: 85%;
+    height: 50vw;
+}
+
+#topIcon {
+    border-right: 2px solid rgb(79, 78, 78);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#topIcon:hover {
+    color: black;
+    border-right: 2px solid rgb(79, 78, 78);
+    padding-right: 10px;
+}

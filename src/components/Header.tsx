@@ -1,23 +1,36 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBars,
-  faBurger,
-  faEnvelope,
+  faCalendarDays,
+  faChartSimple,
+  faGear,
 } from "@fortawesome/free-solid-svg-icons";
 
 const GetHeader = () => {
   return (
-    <header className="w-auto h-32 flex flex-row justify-evenly items-center bg-cyan-500">
-      {/* burger menu */}
-      <section className="flex flex-row justify-center items-center">
-        <FontAwesomeIcon
-          icon={faBars}
-          size="2xl"
-          className="scale-150 hover:text-white transition ease-in cursor-pointer"
-        />
-      </section>
-      <section>
-        <h1 className="text-white text-2xl">ScheduleMe</h1>
+    <header className="bg-gray-800 flex flex-col items-center text-white">
+      <section className="flex flex-col items-center mt-8">
+        <section className="flex flex-row justify-between items-center content-around">
+          <div>
+            <FontAwesomeIcon icon={faGear} size="2xl" className="mt-5" />
+          </div>
+          <p className="mt-4 text-sm">Options</p>
+        </section>
+        <section className="flex flex-row justify-center items-center">
+          <div>
+            <FontAwesomeIcon
+              icon={faCalendarDays}
+              size="2xl"
+              className="mt-5"
+            />
+          </div>
+          <p className="mt-4 text-sm">Schedules</p>
+        </section>
+        <section className="flex flex-row justify-center items-center">
+          <div>
+            <FontAwesomeIcon icon={faChartSimple} size="2xl" className="mt-5" />
+          </div>
+          <p className="mt-4 text-sm">Statistics</p>
+        </section>
       </section>
     </header>
   );
