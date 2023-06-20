@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DBNjVdPhmmxBEv3C66gAq97KGvS6+WYSPhk0osDno1LLLIIu0mv79ETPUEp6rj8Pm0al2Xoqv1fAVI8S97nPLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dfpre\\RiderProjects\\scheduleme\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dfpre\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\dfpre\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
