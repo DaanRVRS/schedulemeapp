@@ -31,3 +31,5 @@ C:\Users\dfpre\RiderProjects\scheduleme\api\obj\Debug\net7.0\refint\api.dll
 C:\Users\dfpre\RiderProjects\scheduleme\api\obj\Debug\net7.0\api.pdb
 C:\Users\dfpre\RiderProjects\scheduleme\api\obj\Debug\net7.0\api.genruntimeconfig.cache
 C:\Users\dfpre\RiderProjects\scheduleme\api\obj\Debug\net7.0\ref\api.dll
+C:\Users\dfpre\RiderProjects\scheduleme\api\bin\Debug\net7.0\Models.dll
+C:\Users\dfpre\RiderProjects\scheduleme\api\bin\Debug\net7.0\Models.pdb
