@@ -1,6 +1,6 @@
 ﻿namespace Models;
 
-public class Staff
+public class StaffViewmodel
 {
     public int Id { get; set; }
     //comment
